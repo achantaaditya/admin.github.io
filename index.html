@@ -7,8 +7,218 @@
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="2685.3">
   <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
   </style>
 </head>
 <body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;Job Clarity &amp; Resume Consultancy&lt;/title&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: Arial, Helvetica, sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #ffffff;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>line-height: 1.6;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.container {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>width: 90%;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>max-width: 1100px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: auto;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>header {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 80px 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>header h1 {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 2.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #6CFFB5;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>header p {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 1.1rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #dcdcdc;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.btn {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: inline-block;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 14px 30px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #00c896;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #000;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-decoration: none;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>section {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 60px 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>h2 {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #6CFFB5;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.services, .pricing, .why {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: grid;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));</p>
+<p class="p1"><span class="Apple-converted-space">      </span>gap: 25px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.card {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: rgba(255,255,255,0.08);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 25px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.card h3 {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-bottom: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #ffffff;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.highlight {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 1.2rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: rgba(0,200,150,0.15);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 25px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.price {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 2rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #6CFFB5;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.contact {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.contact a {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>display: inline-block;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 15px 25px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-decoration: none;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #000;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.whatsapp {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #25D366;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.telegram {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: #2AABEE;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>footer {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 25px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 0.9rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background: rgba(0,0,0,0.3);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 40px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>@media (max-width: 600px) {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>header h1 {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>font-size: 2rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;header&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h1&gt;Job Clarity &amp; Resume Consultancy for Freshers&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;Build your career with expert guidance and ATS-friendly resumes&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;a href="#contact" class="btn"&gt;Build Your Career&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h2&gt;Our Services&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="services"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card"&gt;Clarity Chat&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card"&gt;Resume Rewrite&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card"&gt;Role-Specific Keywords&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card"&gt;Formatting &amp; PDF Delivery&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card"&gt;One Revision Included&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="highlight"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>🚀 Delivery within &lt;strong&gt;24 Hours&lt;/strong&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h2&gt;Pricing&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="pricing"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;h3&gt;Basic Plan&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p class="price"&gt;₹199&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p&gt;Resume review &amp; rewrite&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;h3&gt;Premium Plan&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p class="price"&gt;₹299&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p&gt;Resume + clarity session + keywords&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h2&gt;Why Choose Us&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="why"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card"&gt;Fresher-Focused Guidance&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card"&gt;Fast &amp; Affordable&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card"&gt;Personalized Support&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card"&gt;Career-Oriented Approach&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section id="contact"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="container contact"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h2&gt;Contact Us&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;Start your career journey today&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;a class="whatsapp" href="https://wa.me/918919572857" target="_blank"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>WhatsApp Now</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/a&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;a class="telegram" href="https://t.me/" target="_blank"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>Telegram</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>© 2026 Job Clarity &amp; Resume Consultancy | All Rights Reserved</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/footer&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
 </body>
 </html>
